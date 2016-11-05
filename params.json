@@ -1,0 +1,6 @@
+{
+  "name": "Microforwarder-multicast",
+  "tagline": "3rd ndn hackathon",
+  "body": "### Idea\r\n\r\nNDN micro-forward is a in-browser forwarder implemented in Javascript. The idea is to use one of the forwarder as a relay to outside world while other devices on the same network use multicast to retrieve content from the relay. This is useful where Internet connectivity is not very good.\r\n\r\n\r\n### Tasks\r\n* Protocol to select a gateway\r\n* Stand up a NDNFS server for serving test content\r\n* Implement a in-browser content store \r\n* Implement pipeline for retrieving content\r\n* Multicast configuration scripts for local network\r\n* Test for Firefox and Chrome\r\n* Test for Linux and Mac\r\n* Stream video through a set of micro-forwarders\r\n* Easy installation script\r\n\r\n### Authors and Contributors\r\nJeff Thompson, Wentao Shang, Susmit Shannigrahi, Zhehao Wang\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
